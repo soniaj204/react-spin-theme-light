@@ -1,0 +1,57 @@
+@import "../variables/colors";
+
+.navigation {
+  .sidebar {
+    ul {
+      &.side-menu {
+        li {
+          a {
+            color: $white;
+
+            i {
+              &:first-child {
+                color: $white;
+              }
+            }
+          }
+
+          ul {
+            li {
+              a {
+                color: $white;
+              }
+            }
+          }
+        }
+      }
+    }
+    .media {
+      .media-body {
+          color: rgba($white, 0.4);
+
+          h5 {
+            color: $white;
+          }
+      }
+  }
+  }
+}
+
+.right-sidebar {
+  background: $white;
+  border-left-color: $lightGray;
+  box-shadow: 0px 0px 2px 1px rgba($black, 0.2);
+}
+
+.tabbable-line {
+  > .nav-tabs {
+    > li {
+      &.active, &:hover {
+        border-bottom-color: $primary;
+        > a {
+          color: $primary;
+        }
+      }
+    }
+  }
+}

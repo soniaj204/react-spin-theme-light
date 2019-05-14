@@ -1,0 +1,12 @@
+@import '~@owczar/spin-template/src/scss/bootstrap/variables';
+
+@import '../../../../../styles/variables/colors';
+
+
+.wrap {
+    margin-top: 1rem;
+}
+
+.grayPanel {
+    background: $white;
+}

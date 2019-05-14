@@ -1,0 +1,25 @@
+@import '~@owczar/spin-template/src/scss/bootstrap/variables';
+
+@import '../../../styles/variables/colors';
+
+.searchHeader {
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.searchResultDefault {
+    margin-bottom: 19px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $gray;
+}
+
+.searchResultImage {
+    background: none;
+    border: 2px solid lighten($lightGray, 2);
+}
+
+.searchResultUserHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

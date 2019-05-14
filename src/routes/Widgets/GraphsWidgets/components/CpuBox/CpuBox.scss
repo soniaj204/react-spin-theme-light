@@ -1,0 +1,31 @@
+@import '~@owczar/spin-template/src/scss/bootstrap/variables';
+
+@import '../../../../../styles/variables/colors';
+
+.wrap {
+    margin-top: 1rem;
+}
+
+.bigValue {
+    font-weight: 300;
+    margin: 1rem 0 0 0;
+    color: #fff;
+    font-size: 32px;
+}
+
+.panel {
+    background: $white;
+
+    > *:first-child {
+        background: $brand-success;
+    }
+
+    > *:last-child {
+        padding-bottom: 0;
+    }
+}
+
+.barChart {
+    display: flex;
+    justify-content: center;
+}

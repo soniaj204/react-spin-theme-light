@@ -1,0 +1,8 @@
+@import '~@owczar/spin-template/src/scss/bootstrap/variables';
+
+@import '../../styles/variables/colors';
+
+.panelNoBg {
+    border: 2px solid darken($bodyBg, 9);
+    background: $white;
+}

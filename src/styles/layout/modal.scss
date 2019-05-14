@@ -1,0 +1,6 @@
+@import '../../styles/variables/colors';
+
+.modal-content {
+    background: darken($bodyBg, 2);
+    border-color: darken($bodyBg, 9);
+}

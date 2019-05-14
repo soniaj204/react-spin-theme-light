@@ -1,0 +1,14 @@
+@import '~@owczar/spin-template/src/scss/bootstrap/variables';
+
+@import '../../../../styles/variables/colors';
+
+
+.panel {
+    background: $white;
+    border: 2px solid darken($bodyBg, 4);
+    
+    .controls {
+        display: flex;
+        justify-content: space-between;
+    }
+}

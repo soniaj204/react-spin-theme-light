@@ -1,0 +1,18 @@
+@import '~@owczar/spin-template/src/scss/bootstrap/variables';
+
+@import '../../../../../styles/variables/colors';
+
+.summaryBox {
+    border-width: 2px;
+    cursor: grab;
+
+    .mainIcon {
+        font-size: 2em;
+    }
+
+    .value {
+        font-size: 28px;
+        color: $black;
+        margin: 0;
+    }
+}

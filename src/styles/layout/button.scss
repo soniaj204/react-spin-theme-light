@@ -1,0 +1,68 @@
+@import "../variables/colors";
+
+body {
+  .btn-default {
+    color: $black;
+    border-color: darken($bodyBg, 9);
+    background: darken($bodyBg, 5);
+
+    &:hover {
+      color: $white;
+      border-color: lighten($gray, 7);
+      background: lighten($gray, 8);
+    }
+  }
+}
+
+.open > body .btn-default.dropdown-toggle,
+body .btn-default.active,
+body .btn-default:active {
+  color: $white;
+  border-color: lighten($gray, 7);
+  background: lighten($gray, 9);
+}
+
+.open > body .btn-default.dropdown-toggle.focus,
+.open > body .btn-default.dropdown-toggle:focus,
+.open > body .btn-default.dropdown-toggle:hover,
+body .btn-default.active.focus,
+body .btn-default.active:focus,
+body .btn-default.active:hover,
+body .btn-default:active.focus,
+body .btn-default:active:focus,
+body .btn-default:active:hover,
+.btn-default.active,
+.btn-default:active,
+.open > .btn-default.dropdown-toggle,
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default:active.focus,
+.btn-default:active:focus,
+.btn-default:active:hover,
+.open > .btn-default.dropdown-toggle.focus,
+.open > .btn-default.dropdown-toggle:focus,
+.open > .btn-default.dropdown-toggle:hover,
+body .btn-default.focus,
+body .btn-default:focus {
+  color: $white;
+  border-color: lighten($gray, 7);
+  background: lighten($gray, 9);
+}
+
+.btn-outline {
+  &.active,
+  &:hover {
+    color: $black;
+  }
+
+  &.btn-primary,
+  &.btn-success,
+  &.btn-info {
+    &.active,
+    &:hover {
+      color: $black;
+      color: $white;
+    }
+  }
+}

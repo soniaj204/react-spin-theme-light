@@ -1,0 +1,32 @@
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss';
+@import '~@owczar/spin-template/src/scss/bootstrap/variables';
+
+@import '../../../styles/variables/colors';
+
+.iconsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.iconElement {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+
+    text-align: center;
+    padding: 35px 15px;
+
+    background-color: darken($bodyBg, 7);
+    border: 1px solid lighten($gray, 9);
+    font-size: 11px;
+
+    &:hover {
+        background-color: lighten($gray, 9);
+        color: #fff;
+    }
+
+    .icon {
+        font-size: 24px;
+    }
+}

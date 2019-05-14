@@ -1,0 +1,12 @@
+@import "../variables/colors";
+
+#application {
+  .sub-navbar {
+    &.sub-navbar__header-breadcrumbs {
+      background: darken($bodyBg, 5);
+    }
+  }
+}
+
+
+.breadcrumb {background: darken($bodyBg, 5);}

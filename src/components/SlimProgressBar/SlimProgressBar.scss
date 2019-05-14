@@ -1,0 +1,22 @@
+@import "../../styles/variables/colors";
+
+.slimBarWrap {
+  color: $white;
+  > .slimBar {
+    border-radius: 0;
+    height: 5px;
+    margin-bottom: 0;
+    background: rgba($white, 0.7);
+    box-shadow: none;
+    border: 1px solid rgba($black, 0.2);
+
+    &.medium {
+      height: 7px;
+    }
+
+    &.large {
+      height: 9px;
+    }
+  }
+
+}

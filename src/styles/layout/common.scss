@@ -1,0 +1,252 @@
+a {
+  color: $primary;
+  &:hover {
+    color: darken($primary, 9);
+  }
+}
+
+#application.sidebar-dark-primary:not(.sidebar-big-icons):not(.sidebar-slim)
+  .navigation
+  .sidebar
+  .side-menu
+  li.active:hover
+  > a,
+#application.sidebar-dark-primary:not(.sidebar-big-icons):not(.sidebar-slim)
+  .navigation
+  .sidebar
+  .side-menu
+  li.active
+  > a,
+#application.sidebar-dark-primary:not(.sidebar-big-icons):not(.sidebar-slim)
+  .navigation
+  .sidebar
+  .side-menu
+  li.nested-active:not(.expanded):hover
+  > a,
+#application.sidebar-dark-primary:not(.sidebar-big-icons):not(.sidebar-slim)
+  .navigation
+  .sidebar
+  .side-menu
+  li.nested-active:not(.expanded)
+  > a,
+#application.sidebar-dark-primary
+  .navigation
+  .sidebar
+  .side-menu
+  > li.active:hover
+  > a,
+#application.sidebar-dark-primary
+  .navigation
+  .sidebar
+  .side-menu
+  > li.active
+  > a,
+#application.sidebar-dark-primary
+  .navigation
+  .sidebar
+  .side-menu
+  > li.nested-active:not(.expanded):hover
+  > a,
+#application.sidebar-dark-primary
+  .navigation
+  .sidebar
+  .side-menu
+  > li.nested-active:not(.expanded)
+  > a {
+  box-shadow: inset 3px 0 0 0 $primary;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .open > a:hover {
+  background: lighten($primary, 4);
+}
+
+.table-hover > tbody > tr:hover,
+.table > tbody > tr.active > td,
+.table > tbody > tr.active > th,
+.table > tbody > tr > td.active,
+.table > tbody > tr > th.active,
+.table > tfoot > tr.active > td,
+.table > tfoot > tr.active > th,
+.table > tfoot > tr > td.active,
+.table > tfoot > tr > th.active,
+.table > thead > tr.active > td,
+.table > thead > tr.active > th,
+.table > thead > tr > td.active,
+.table > thead > tr > th.active {
+  background-color: $bodyBg;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $black;
+}
+
+.nav {
+  > li {
+    > a {
+      &:focus,
+      &:hover {
+        background-color: $bodyBg;
+      }
+    }
+  }
+}
+
+pre {
+  background: darken($bodyBg, 4);
+}
+
+blockquote {
+  border-left-color: darken($bodyBg, 7);
+}
+
+.blockquote-reverse,
+blockquote.pull-right {
+  border-right-color: darken($bodyBg, 7);
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+  z-index: 2;
+  color: #fff;
+  background-color: lighten($gray, 5);
+  border-color: lighten($gray, 5);
+}
+
+.jumbotron {
+  background: darken($bodyBg, 4);
+
+  h1,
+  .h1 {
+    color: $gray;
+  }
+}
+
+.gallery-thumbnail,
+.thumbnail {
+  border-color: lighten($lightGray, 2);
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  background: lighten($lightGray, 4);
+  border-color: darken($gray, 1);
+}
+
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
+  background: lighten($lightGray, 9);
+  border-color: #2c97de;
+}
+
+.popover-title {
+  background: lighten($gray, 6);
+  color: $white;
+}
+
+.popover {
+  &.top {
+    > .arrow {
+      border-top-color: lighten($gray, 5);
+      &:after {
+        border-top-color: lighten($gray, 5);
+      }
+    }
+  }
+  &.bottom {
+    > .arrow {
+      border-bottom-color: lighten($gray, 5);
+      &:after {
+        border-bottom-color: lighten($gray, 5);
+      }
+    }
+  }
+  &.left {
+    > .arrow {
+      border-left-color: lighten($gray, 5);
+      &:after {
+        border-left-color: lighten($gray, 5);
+      }
+    }
+  }
+  &.right {
+    > .arrow {
+      border-right-color: lighten($gray, 5);
+      &:after {
+        border-right-color: lighten($gray, 5);
+      }
+    }
+  }
+}
+
+.list-group-item.disabled,
+.list-group-item.disabled:focus,
+.list-group-item.disabled:hover {
+  background: lighten($lightGray, 7);
+}
+
+.popover {
+  background: lighten($gray, 5);
+  color: $white;
+}
+
+a.list-group-item .list-group-item-heading,
+button.list-group-item .list-group-item-heading {
+  color: $black;
+}
+
+.ct-label {
+  color: $black !important;
+  fill: $black !important;
+}
+
+.badge {
+  background: lighten($gray, 4);
+}
+
+.show-grid [class^="col-"] {
+  background-color: darken($bodyBg, 9);
+  border: 1px solid #575757;
+  color: $gray;
+}
+
+body .rdw-dropdownoption-active,
+body .rdw-editor-main {
+  background-color: $white;
+  color: $black;
+}
+
+body .rdw-editor-toolbar {
+  background-color: $white;
+  border-color: #262626;
+}
+
+body .rdw-embedded-modal-btn,
+body .rdw-image-alignment-option,
+body .rdw-image-modal-btn,
+body .rdw-link-modal-btn,
+body .rdw-option-wrapper, body .rdw-dropdown-wrapper {
+  background: #2c97de;
+  border-color: darken($bodyBg, 4);
+}

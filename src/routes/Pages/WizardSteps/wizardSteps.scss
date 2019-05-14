@@ -1,0 +1,24 @@
+@import '~@owczar/spin-template/src/scss/bootstrap/variables';
+
+@import '../../../styles/variables/colors';
+
+.ddWrap {
+    > * {
+        display: block;
+    }
+}
+
+.changeBtnWrap {
+    margin-left: -13px;
+}
+
+.card {
+    background: darken($bodyBg, 2);
+    padding: 20px;
+}
+
+.flexBetween {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

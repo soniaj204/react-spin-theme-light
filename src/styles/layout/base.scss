@@ -1,0 +1,18 @@
+@import "../variables/colors";
+
+body {
+  background: $bodyBg;
+  color: darken($gray, 4);
+}
+
+#application {
+  background: $bodyBg;
+  .main-wrap {
+    background: $darkGray;
+  }
+}
+
+.content {
+  background: $bodyBg;
+}
+

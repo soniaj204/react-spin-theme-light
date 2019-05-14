@@ -1,0 +1,44 @@
+@import "../variables/colors";
+
+.navbar-inverse {
+  background: $primary;
+
+  .navbar-nav {
+    > li {
+      > a {
+        color: $white;
+      }
+    }
+  }
+}
+
+.dropdown-menu {
+  background-color: $white;
+  border: 1px solid $lightGray;
+}
+
+.list-group-item {
+  background-color: white;
+  border: 1px solid lightGray;
+}
+
+a.list-group-item,
+button.list-group-item {
+  color: $black;
+}
+
+a.list-group-item:focus,
+a.list-group-item:hover,
+button.list-group-item:focus,
+button.list-group-item:hover {
+  color: $black;
+  background-color: $bodyBg;
+}
+
+.dropdown-menu {
+  > li {
+    > a {
+      color: $black;
+    }
+  }
+}

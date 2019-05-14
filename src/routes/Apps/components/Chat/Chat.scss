@@ -1,0 +1,26 @@
+@import '~@owczar/spin-template/src/scss/bootstrap/variables';
+
+@import "../../../../styles/variables/colors.scss";
+
+.chatMessageContent {
+    padding: 15px;
+    border-radius: 3px;
+    background: lighten($lightGray, 8);
+    color: #fff;
+}
+
+.chatMessage.active .chatMessageContent {
+    background: $brand-primary;
+}
+
+.chatMessageFooter {
+    margin: 1rem 0;
+
+    > * + * {
+        margin-left: 5px;
+    }
+}
+
+.chatMessage:not(.leftAligned) .chatMessageFooter {
+    text-align: right;
+}

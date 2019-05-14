@@ -1,0 +1,8 @@
+@import '~@owczar/spin-template/src/scss/bootstrap/variables';
+
+@import '../../../styles/variables/colors';
+
+.staticModalContainer {
+    background: none;
+    border: 2px solid $lightGray;
+}

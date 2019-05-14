@@ -1,0 +1,25 @@
+.panel-footer {
+  background: darken($bodyBg, 2);
+}
+
+.panel-default {
+  >.panel-heading {
+    background: darken($bodyBg, 9);
+    border-bottom-color: $lightGray;
+    color: $black;
+    font-weight: 500;
+
+    .badge {
+      background: lighten($gray, 4);
+      color: $white;
+    }
+  }
+}
+
+.panel {
+  background: darken($bodyBg, 3);
+
+  .panel-body {
+    background: $white;
+  }
+}

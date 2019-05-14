@@ -1,0 +1,97 @@
+.form-control {
+  background: $white;
+  border: 1px solid $lightGray;
+  color: $black;
+
+  &:focus {
+    border-color: darken($lightGray, 4);
+  }
+
+  &::placeholder {
+    color: $darkGray;
+  }
+}
+
+.input-group-addon {
+  color: $black;
+  border: 1px solid $lightGray;
+}
+
+.Select-control {
+  background-color: lighten($bodyBg, 8);
+  border-radius: 4px;
+  border: 1px solid lighten($bodyBg, 9);
+}
+
+.Select-menu-outer {
+  background: lighten($bodyBg, 8);
+}
+
+.Select-option {
+  background: lighten($bodyBg, 8);
+}
+
+.Select.has-value.is-pseudo-focused.Select--single > .Select-control,
+.Select.has-value.Select--single > .Select-control {
+  background: darken($bodyBg, 2);
+}
+
+.Select.has-value.is-pseudo-focused.Select--single
+  > .Select-control
+  .Select-value
+  .Select-value-label,
+.Select.has-value.Select--single
+  > .Select-control
+  .Select-value
+  .Select-value-label {
+  color: #5c5c5c;
+}
+
+.DayPicker--horizontal {
+  background: lighten($lightGray, 3);
+}
+
+.CalendarMonthGrid {
+  background: lighten($lightGray, 3);
+}
+
+.CalendarDay {
+  color: $gray;
+}
+
+.DayPickerNavigation__next--default,
+.DayPickerNavigation__prev--default {
+  border: 1px solid darken($lightGray, 3);
+  background-color: darken($lightGray, 3);
+  color: #757575;
+}
+
+.CalendarMonth__caption {
+  color: $black;
+}
+
+.CalendarDay--blocked-out-of-range {
+  color: $white;
+  background-color: darken($lightGray, 3);
+  border: 1px solid #484848;
+}
+
+.CalendarDay--selected-span, .CalendarDay--hovered {
+  background: #b5cbd8;
+}
+
+.CalendarDay--selected,
+.CalendarDay--selected-end,
+.CalendarDay--selected-start,
+.CalendarDay--valid {
+  color: $white;
+}
+
+
+body .rdl-control, body .rdl-filter {
+  background: darken($bodyBg, 8);
+  color: $black;
+}
+
+
+body .rdl-move {background: darken($bodyBg, 6);}
